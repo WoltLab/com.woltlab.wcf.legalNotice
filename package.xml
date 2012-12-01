@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.woltlab.wcf.legalNotice" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>Legal Notice Page</packagename>
+		<packagename language="de">Impressum</packagename>
+		<packagedescription>Adds a new page to your forum with information about the site owner. (This is required for German websites.)</packagedescription>
+		<packagedescription language="de">Kommerzielle deutsche Internetseiten müssen nach § 5 Telemediengesetz über ein Impressum verfügen.</packagedescription>
+		<version>1.0.0 Alpha 1</version>
+		<date>2012-01-12</date>
+		<plugin>com.woltlab.wcf</plugin>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>WoltLab GmbH</author>
+		<authorurl>http://www.woltlab.com</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="pageMenu">pageMenu.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+</package>

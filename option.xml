@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="legalNotice">
+				<parent>general</parent>
+			</category>
+		</categories>
+	
+		<options>
+			<option name="legal_notice_address">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+			</option>
+			<option name="legal_notice_email_address">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="legal_notice_phone">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="legal_notice_fax">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="legal_notice_representative">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="legal_notice_register">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="legal_notice_vat_id">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="legal_notice_additional_text">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+			</option>
+			<option name="legal_notice_additional_text_enable_html">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+		</options>
+	</import>
+</data>

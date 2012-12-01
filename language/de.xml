@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.legalNotice"><![CDATA[Impressum]]></item>
+		<item name="wcf.acp.option.category.legalNotice.description"><![CDATA[Angaben gemäß § 5 Telemediengesetz]]></item>
+		<item name="wcf.acp.option.legal_notice_additional_text"><![CDATA[Weitere Informationen]]></item>
+		<item name="wcf.acp.option.legal_notice_additional_text.description"><![CDATA[Optional können Sie hier weitere Informationen Ihrem Impressum hinzufügen.]]></item>
+		<item name="wcf.acp.option.legal_notice_additional_text_enable_html"><![CDATA[HTML-Code im Text verwenden]]></item>
+		<item name="wcf.acp.option.legal_notice_additional_text_enable_html.description"><![CDATA[Durch Aktivierung dieser Option können Sie zur Formatierung des Textes auch HTML verwenden.]]></item>
+		<item name="wcf.acp.option.legal_notice_address"><![CDATA[Name und Anschrift]]></item>
+		<item name="wcf.acp.option.legal_notice_address.description"><![CDATA[Geben Sie hier den Namen und die komplette Anschrift des Inhabers der Seite ein. Bei juristischen Personen muss die Rechtsform mit angegeben werden (z.B. &raquo;GmbH&laquo;).]]></item>
+		<item name="wcf.acp.option.legal_notice_email_address"><![CDATA[E-Mail-Adresse]]></item>
+		<item name="wcf.acp.option.legal_notice_email_address.description"><![CDATA[Die Angabe der E-Mail-Adresse im Impressum ist gesetzlich vorgeschrieben.]]></item>
+		<item name="wcf.acp.option.legal_notice_fax"><![CDATA[Fax-Nummer]]></item>
+		<item name="wcf.acp.option.legal_notice_fax.description"><![CDATA[Bitte geben Sie hier soweit vorhanden Ihre Fax-Nummer an.]]></item>
+		<item name="wcf.acp.option.legal_notice_phone"><![CDATA[Telefon-Nummer]]></item>
+		<item name="wcf.acp.option.legal_notice_phone.description"><![CDATA[Die Angabe der Telefon-Nummer im Impressum ist gesetzlich vorgeschrieben.]]></item>
+		<item name="wcf.acp.option.legal_notice_register"><![CDATA[Registereintragung]]></item>
+		<item name="wcf.acp.option.legal_notice_register.description"><![CDATA[Falls der Inhaber in ein Handelsregister, Vereinsregister, Partnerschaftsregister oder Genossenschaftsregister eingetragen ist, müssen Sie hier das Register und die dazugehörige Nummer angeben.]]></item>
+		<item name="wcf.acp.option.legal_notice_representative"><![CDATA[Vertretungsberechtigte]]></item>
+		<item name="wcf.acp.option.legal_notice_representative.description"><![CDATA[Bei juristischen Personen ist es gesetzlich vorgeschrieben, dass alle vertretungsberechtigten Personen mit vollem Namen im Impressum genannt werden.]]></item>
+		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[Umsatzsteuer-ID]]></item>
+		<item name="wcf.acp.option.legal_notice_vat_id.description"><![CDATA[Falls Sie über eine Umsatzsteuer-Identifikationsnummer verfügen, tragen Sie diese bitte hier ein.]]></item>
+	</category>
+	<category name="wcf.footer.menu">
+		<item name="wcf.footer.menu.legalNotice"><![CDATA[Impressum]]></item>
+	</category>
+	<category name="wcf.legalNotice">
+		<item name="wcf.legalNotice.additionalText"><![CDATA[Weitere Informationen]]></item>
+		<item name="wcf.legalNotice.address"><![CDATA[Name und Anschrift]]></item>
+		<item name="wcf.legalNotice.description"><![CDATA[Angaben gemäß § 5 Telemediengesetz]]></item>
+		<item name="wcf.legalNotice.emailAddress"><![CDATA[E-Mail-Adresse]]></item>
+		<item name="wcf.legalNotice.fax"><![CDATA[Fax]]></item>
+		<item name="wcf.legalNotice.general"><![CDATA[Allgemeine Informationen]]></item>
+		<item name="wcf.legalNotice.phone"><![CDATA[Telefon]]></item>
+		<item name="wcf.legalNotice.register"><![CDATA[Register]]></item>
+		<item name="wcf.legalNotice.representative"><![CDATA[Vertretungsberechtigte]]></item>
+		<item name="wcf.legalNotice.title"><![CDATA[Impressum]]></item>
+		<item name="wcf.legalNotice.vatID"><![CDATA[Umsatzsteuer-ID]]></item>
+	</category>
+</language>
