@@ -8,7 +8,7 @@
 		<item name="wcf.acp.option.legal_notice_additional_text_enable_html"><![CDATA[HTML-Code im Text verwenden]]></item>
 		<item name="wcf.acp.option.legal_notice_additional_text_enable_html.description"><![CDATA[Durch Aktivierung dieser Option können Sie zur Formatierung des Textes auch HTML verwenden.]]></item>
 		<item name="wcf.acp.option.legal_notice_address"><![CDATA[Name und Anschrift]]></item>
-		<item name="wcf.acp.option.legal_notice_address.description"><![CDATA[Geben Sie hier den Namen und die komplette Anschrift des Inhabers der Seite ein. Bei juristischen Personen muss die Rechtsform mit angegeben werden (z.B. &raquo;GmbH&laquo;).]]></item>
+		<item name="wcf.acp.option.legal_notice_address.description"><![CDATA[Geben Sie hier den Namen und die komplette Anschrift des Inhabers der Seite ein. Bei juristischen Personen muss die Rechtsform mit angegeben werden (z.B. „GmbH“).]]></item>
 		<item name="wcf.acp.option.legal_notice_email_address"><![CDATA[E-Mail-Adresse]]></item>
 		<item name="wcf.acp.option.legal_notice_email_address.description"><![CDATA[Die Angabe der E-Mail-Adresse im Impressum ist gesetzlich vorgeschrieben.]]></item>
 		<item name="wcf.acp.option.legal_notice_fax"><![CDATA[Fax-Nummer]]></item>
