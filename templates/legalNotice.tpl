@@ -59,6 +59,8 @@
 				<dd>{LEGAL_NOTICE_VAT_ID}</dd>
 			{/if}
 		</dl>
+		
+		{event name='generalFields'}
 	</fieldset>
 	
 	{if LEGAL_NOTICE_ADDITIONAL_TEXT}
@@ -68,8 +70,12 @@
 			<div class="htmlContent">
 				{if LEGAL_NOTICE_ADDITIONAL_TEXT_ENABLE_HTML}{@LEGAL_NOTICE_ADDITIONAL_TEXT|language}{else}{@LEGAL_NOTICE_ADDITIONAL_TEXT|language|htmlspecialchars|nl2br}{/if}
 			</div>
+			
+			{event name='additionalTextFields'}
 		</fieldset>
 	{/if}
+	
+	{event name='fieldsets'}
 </div>
 
 {include file='footer'}
