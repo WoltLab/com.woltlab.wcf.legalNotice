@@ -4,6 +4,8 @@
 	<title>{lang}wcf.legalNotice.title{/lang} - {PAGE_TITLE|language}</title>
 	
 	{include file='headInclude'}
+	
+	<link rel="canonical" href="{link controller='LegalNotice'}{/link}" />
 </head>
 
 <body id="tpl{$templateName|ucfirst}">
