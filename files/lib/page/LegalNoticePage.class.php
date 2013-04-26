@@ -17,6 +17,11 @@ class LegalNoticePage extends AbstractPage {
 	const AVAILABLE_DURING_OFFLINE_MODE = true;
 	
 	/**
+	 * @see	wcf\page\AbstractPage::$activeMenuItem
+	 */
+	public $activeMenuItem = 'wcf.footer.menu.legalNotice';
+	
+	/**
 	 * @see wcf\page\IPage::assignVariables()
 	 */
 	public function assignVariables() {
