@@ -13,10 +13,8 @@
 {include file='header'}
 
 <header class="boxHeadline">
-	<hgroup>
-		<h1>{lang}wcf.legalNotice.title{/lang}</h1>
-		<h2>{lang}wcf.legalNotice.description{/lang}</h2>
-	</hgroup>
+	<h1>{lang}wcf.legalNotice.title{/lang}</h1>
+	<p>{lang}wcf.legalNotice.description{/lang}</p>
 </header>
 
 {include file='userNotice'}
