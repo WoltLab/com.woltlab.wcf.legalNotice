@@ -6,7 +6,7 @@
 		<packagedescription>Adds a new page to your forum with information about the site owner. (This is required for German websites.)</packagedescription>
 		<packagedescription language="de">Kommerzielle deutsche Internetseiten müssen nach § 5 Telemediengesetz über ein Impressum verfügen.</packagedescription>
 		<version>2.0.0 Beta 1</version>
-		<date>2013-05-18</date>
+		<date>2013-05-29</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -23,13 +23,6 @@
 		<instruction type="template">templates.tar</instruction>
 		<instruction type="pageMenu">pageMenu.xml</instruction>
 		<instruction type="option">option.xml</instruction>
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="1.0.0 Alpha 1">
-		<instruction type="file">files.tar</instruction>
-		<instruction type="template">templates.tar</instruction>
-		
 		<instruction type="language">language/*.xml</instruction>
 	</instructions>
 </package>
