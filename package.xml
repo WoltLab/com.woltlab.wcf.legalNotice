@@ -5,8 +5,8 @@
 		<packagename language="de">Impressum</packagename>
 		<packagedescription>Adds a new page to your forum with information about the site owner. (This is required for German websites.)</packagedescription>
 		<packagedescription language="de">Kommerzielle deutsche Internetseiten müssen nach § 5 Telemediengesetz über ein Impressum verfügen.</packagedescription>
-		<version>2.0.0 Beta 1</version>
-		<date>2013-05-29</date>
+		<version>2.0.0 Beta 2</version>
+		<date>2013-07-22</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -15,7 +15,7 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0 Beta 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta %">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<instructions type="install">
@@ -24,5 +24,9 @@
 		<instruction type="pageMenu">pageMenu.xml</instruction>
 		<instruction type="option">option.xml</instruction>
 		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+	
+	<instructions type="update">
+		<instruction type="template">templates_update.tar</instruction>
 	</instructions>
 </package>
