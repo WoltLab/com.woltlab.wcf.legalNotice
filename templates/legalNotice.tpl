@@ -26,7 +26,7 @@
 		<dl>
 			{if LEGAL_NOTICE_ADDRESS}
 				<dt>{lang}wcf.legalNotice.address{/lang}</dt>
-				<dd>{@LEGAL_NOTICE_ADDRESS|language|htmlspecialchars|nl2br}</dd>
+				<dd>{@LEGAL_NOTICE_ADDRESS|language|newlineToBreak}</dd>
 			{/if}
 			
 			{if $encodedEmailAddress}
@@ -68,7 +68,7 @@
 			<legend>{lang}wcf.legalNotice.additionalText{/lang}</legend>
 		
 			<div class="htmlContent">
-				{if LEGAL_NOTICE_ADDITIONAL_TEXT_ENABLE_HTML}{@LEGAL_NOTICE_ADDITIONAL_TEXT|language}{else}{@LEGAL_NOTICE_ADDITIONAL_TEXT|language|htmlspecialchars|nl2br}{/if}
+				{if LEGAL_NOTICE_ADDITIONAL_TEXT_ENABLE_HTML}{@LEGAL_NOTICE_ADDITIONAL_TEXT|language}{else}{@LEGAL_NOTICE_ADDITIONAL_TEXT|language|newlineToBreak}{/if}
 			</div>
 			
 			{event name='additionalTextFields'}
