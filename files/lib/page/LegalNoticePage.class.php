@@ -22,7 +22,7 @@ class LegalNoticePage extends AbstractPage {
 	public $activeMenuItem = 'wcf.footer.menu.legalNotice';
 	
 	/**
-	 * @see wcf\page\IPage::assignVariables()
+	 * @see	wcf\page\IPage::assignVariables()
 	 */
 	public function assignVariables() {
 		parent::assignVariables();
