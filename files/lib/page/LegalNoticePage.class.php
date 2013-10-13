@@ -11,7 +11,7 @@ use wcf\util\StringUtil;
  * @license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
  * @package	com.woltlab.wcf.legalNotice
  * @subpackage	page
- * @category 	Community Framework
+ * @category	Community Framework
  */
 class LegalNoticePage extends AbstractPage {
 	const AVAILABLE_DURING_OFFLINE_MODE = true;
