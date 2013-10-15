@@ -22,7 +22,7 @@
 <div class="container containerPadding marginTop">
 	<fieldset>
 		<legend>{lang}wcf.legalNotice.general{/lang}</legend>
-	
+		
 		<dl>
 			{if LEGAL_NOTICE_ADDRESS}
 				<dt>{lang}wcf.legalNotice.address{/lang}</dt>
@@ -66,7 +66,7 @@
 	{if LEGAL_NOTICE_ADDITIONAL_TEXT}
 		<fieldset>
 			<legend>{lang}wcf.legalNotice.additionalText{/lang}</legend>
-		
+			
 			<div class="htmlContent">
 				{if LEGAL_NOTICE_ADDITIONAL_TEXT_ENABLE_HTML}{@LEGAL_NOTICE_ADDITIONAL_TEXT|language}{else}{@LEGAL_NOTICE_ADDITIONAL_TEXT|language|newlineToBreak}{/if}
 			</div>

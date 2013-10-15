@@ -6,7 +6,7 @@
 				<parent>general</parent>
 			</category>
 		</categories>
-	
+		
 		<options>
 			<option name="legal_notice_address">
 				<categoryname>legalNotice</categoryname>
