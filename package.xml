@@ -5,8 +5,8 @@
 		<packagename language="de">Impressum</packagename>
 		<packagedescription>Adds a new page to your forum with information about the site owner. (This is required for German websites.)</packagedescription>
 		<packagedescription language="de">Kommerzielle deutsche Internetseiten müssen nach § 5 Telemediengesetz über ein Impressum verfügen.</packagedescription>
-		<version>2.0.0 RC 1</version>
-		<date>2013-11-20</date>
+		<version>2.0.0</version>
+		<date>2013-12-12</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -26,7 +26,7 @@
 		<instruction type="language">language/*.xml</instruction>
 	</instructions>
 	
-	<instructions type="update" fromversion="2.0.0 Beta 3">
+	<instructions type="update" fromversion="2.0.0 RC 1">
 		<!-- fake update -->
 	</instructions>
 </package>
