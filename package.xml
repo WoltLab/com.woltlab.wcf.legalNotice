@@ -3,7 +3,7 @@
 	<packageinformation>
 		<packagename>Legal Notice Page</packagename>
 		<packagename language="de">Impressum</packagename>
-		<packagedescription>Adds a new page to your forum with information about the site owner. (This is required for German websites.)</packagedescription>
+		<packagedescription>Adds a new page to your website with information about the site owner. (This is required for German websites.)</packagedescription>
 		<packagedescription language="de">Kommerzielle deutsche Internetseiten müssen nach § 5 Telemediengesetz über ein Impressum verfügen.</packagedescription>
 		<version>2.1.0 Alpha 1</version>
 		<date>2014-07-08</date>
