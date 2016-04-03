@@ -23,10 +23,6 @@
 		<item name="wcf.acp.option.legal_notice_vat_id.description"><![CDATA[Falls Sie über eine Umsatzsteuer-Identifikationsnummer verfügen, tragen Sie diese bitte hier ein.]]></item>
 	</category>
 	
-	<category name="wcf.footer.menu">
-		<item name="wcf.footer.menu.legalNotice"><![CDATA[Impressum]]></item>
-	</category>
-	
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Weitere Informationen]]></item>
 		<item name="wcf.legalNotice.address"><![CDATA[Name und Anschrift]]></item>
@@ -39,9 +35,5 @@
 		<item name="wcf.legalNotice.representative"><![CDATA[Vertretungsberechtigte]]></item>
 		<item name="wcf.legalNotice.title"><![CDATA[Impressum]]></item>
 		<item name="wcf.legalNotice.vatID"><![CDATA[Umsatzsteuer-ID]]></item>
-	</category>
-	
-	<category name="wcf.page">
-		<item name="wcf.page.com.woltlab.wcf.legalNotice.LegalNoticePage"><![CDATA[Impressum]]></item>
 	</category>
 </language>
