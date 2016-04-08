@@ -2,7 +2,7 @@
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/page.xsd">
 	<import>
 		<page identifier="com.woltlab.wcf.LegalNotice">
-			<pagetype>system</pagetype>
+			<pageType>system</pageType>
 			<controller>wcf\page\LegalNoticePage</controller>
 			<name language="de"><![CDATA[Impressum]]></name>
 			<name language="en"><![CDATA[Legal Notice]]></name>
