@@ -5,8 +5,8 @@
 		<item name="wcf.acp.option.category.legalNotice.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.legal_notice_additional_text"><![CDATA[Additional Information]]></item>
 		<item name="wcf.acp.option.legal_notice_additional_text.description"><![CDATA[You can enter additional information for your legal notice page here.]]></item>
-		<item name="wcf.acp.option.legal_notice_additional_text_enable_html"><![CDATA[Enable HTML]]></item>
-		<item name="wcf.acp.option.legal_notice_additional_text_enable_html.description"><![CDATA[Allows you to use HTML code in the additional information message.]]></item>
+		<item name="wcf.acp.option.legal_notice_additional_text_enable_html"><![CDATA[Enable HTML code in additional information message]]></item>
+		<item name="wcf.acp.option.legal_notice_additional_text_enable_html.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.legal_notice_address"><![CDATA[Name and Address]]></item>
 		<item name="wcf.acp.option.legal_notice_address.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.legal_notice_email_address"><![CDATA[E-Mail Address]]></item>
