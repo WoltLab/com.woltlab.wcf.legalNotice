@@ -17,12 +17,12 @@ class LegalNoticePage extends AbstractPage {
 	const AVAILABLE_DURING_OFFLINE_MODE = true;
 	
 	/**
-	 * @see	\wcf\page\AbstractPage::$activeMenuItem
+	 * @inheritDoc
 	 */
 	public $activeMenuItem = 'wcf.footer.menu.legalNotice';
 	
 	/**
-	 * @see	\wcf\page\IPage::assignVariables()
+	 * @inheritDoc
 	 */
 	public function assignVariables() {
 		parent::assignVariables();
