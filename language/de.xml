@@ -33,7 +33,6 @@
 		<item name="wcf.legalNotice.phone"><![CDATA[Telefon]]></item>
 		<item name="wcf.legalNotice.register"><![CDATA[Register]]></item>
 		<item name="wcf.legalNotice.representative"><![CDATA[Vertretungsberechtigte]]></item>
-		<item name="wcf.legalNotice.title"><![CDATA[Impressum]]></item>
 		<item name="wcf.legalNotice.vatID"><![CDATA[Umsatzsteuer-ID]]></item>
 	</category>
 </language>

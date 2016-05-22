@@ -1,7 +1,3 @@
-{capture assign='pageTitle'}{lang}wcf.legalNotice.title{/lang}{/capture}
-
-{capture assign='contentTitle'}{lang}wcf.legalNotice.title{/lang}{/capture}
-
 {capture assign='contentDescription'}{lang}wcf.legalNotice.description{/lang}{/capture}
 
 {capture assign='headContent'}

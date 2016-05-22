@@ -6,6 +6,13 @@
 			<controller>wcf\page\LegalNoticePage</controller>
 			<name language="de"><![CDATA[Impressum]]></name>
 			<name language="en"><![CDATA[Legal Notice]]></name>
+			
+			<content language="en">
+				<title>Legal Notice</title>
+			</content>
+			<content language="de">
+				<title>Impressum</title>
+			</content>
 		</page>
 	</import>
 </data>
