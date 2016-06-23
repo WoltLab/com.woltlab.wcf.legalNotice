@@ -1,5 +1,6 @@
 <?php
 namespace wcf\page;
+use wcf\system\request\LinkHandler;
 use wcf\system\WCF;
 use wcf\util\StringUtil;
 
@@ -17,7 +18,11 @@ class LegalNoticePage extends AbstractPage {
 	/**
 	 * @inheritDoc
 	 */
-	public $activeMenuItem = 'wcf.footer.menu.legalNotice';
+	public function readParameters() {
+		parent::readParameters();
+		
+		$this->canonicalURL = LinkHandler::getInstance()->getLink('LegalNotice');
+	}
 	
 	/**
 	 * @inheritDoc

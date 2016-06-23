@@ -1,9 +1,5 @@
 {capture assign='contentDescription'}{lang}wcf.legalNotice.description{/lang}{/capture}
 
-{capture assign='headContent'}
-	<link rel="canonical" href="{link controller='LegalNotice'}{/link}">
-{/capture}
-
 {include file='header'}
 
 <section class="section">
