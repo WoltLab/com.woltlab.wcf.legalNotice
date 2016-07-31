@@ -3,8 +3,8 @@
 	<import>
 		<item identifier="com.woltlab.wcf.LegalNotice">
 			<menu>com.woltlab.wcf.FooterMenu</menu>
-			<title language="de"><![CDATA[Impressum]]></title>
-			<title language="en"><![CDATA[Legal Notice]]></title>
+			<title language="de">Impressum</title>
+			<title language="en">Legal Notice</title>
 			<page>com.woltlab.wcf.LegalNotice</page>
 		</item>
 	</import>

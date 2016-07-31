@@ -4,8 +4,8 @@
 		<page identifier="com.woltlab.wcf.LegalNotice">
 			<pageType>system</pageType>
 			<controller>wcf\page\LegalNoticePage</controller>
-			<name language="de"><![CDATA[Impressum]]></name>
-			<name language="en"><![CDATA[Legal Notice]]></name>
+			<name language="de">Impressum</name>
+			<name language="en">Legal Notice</name>
 			
 			<content language="en">
 				<title>Legal Notice</title>
