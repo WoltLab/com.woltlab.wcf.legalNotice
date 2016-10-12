@@ -9,7 +9,7 @@
 		<item name="wcf.acp.option.legal_notice_additional_text_enable_html.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.legal_notice_address"><![CDATA[Name and Address]]></item>
 		<item name="wcf.acp.option.legal_notice_address.description"><![CDATA[]]></item>
-		<item name="wcf.acp.option.legal_notice_email_address"><![CDATA[E-Mail Address]]></item>
+		<item name="wcf.acp.option.legal_notice_email_address"><![CDATA[Email Address]]></item>
 		<item name="wcf.acp.option.legal_notice_email_address.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.legal_notice_fax"><![CDATA[Fax]]></item>
 		<item name="wcf.acp.option.legal_notice_fax.description"><![CDATA[]]></item>
@@ -27,7 +27,7 @@
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Additional Information]]></item>
 		<item name="wcf.legalNotice.address"><![CDATA[Name and Address]]></item>
 		<item name="wcf.legalNotice.description"><![CDATA[]]></item>
-		<item name="wcf.legalNotice.emailAddress"><![CDATA[E-Mail Address]]></item>
+		<item name="wcf.legalNotice.emailAddress"><![CDATA[Email Address]]></item>
 		<item name="wcf.legalNotice.fax"><![CDATA[Fax]]></item>
 		<item name="wcf.legalNotice.general"><![CDATA[General Information]]></item>
 		<item name="wcf.legalNotice.phone"><![CDATA[Phone]]></item>
