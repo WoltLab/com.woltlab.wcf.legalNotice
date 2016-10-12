@@ -23,10 +23,6 @@
 		<item name="wcf.acp.option.legal_notice_vat_id.description"><![CDATA[]]></item>
 	</category>
 	
-	<category name="wcf.footer.menu">
-		<item name="wcf.footer.menu.legalNotice"><![CDATA[Legal Notice]]></item>
-	</category>
-	
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Additional Information]]></item>
 		<item name="wcf.legalNotice.address"><![CDATA[Name and Address]]></item>
@@ -37,11 +33,6 @@
 		<item name="wcf.legalNotice.phone"><![CDATA[Phone]]></item>
 		<item name="wcf.legalNotice.register"><![CDATA[Register]]></item>
 		<item name="wcf.legalNotice.representative"><![CDATA[Representatives]]></item>
-		<item name="wcf.legalNotice.title"><![CDATA[Legal Notice]]></item>
 		<item name="wcf.legalNotice.vatID"><![CDATA[VAT ID]]></item>
-	</category>
-	
-	<category name="wcf.page">
-		<item name="wcf.page.com.woltlab.wcf.legalNotice.LegalNoticePage"><![CDATA[Legal Notice]]></item>
 	</category>
 </language>
