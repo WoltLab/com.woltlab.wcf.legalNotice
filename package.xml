@@ -33,4 +33,12 @@
 	<instructions type="update" fromversion="3.0.0 Beta 1">
 		<instruction type="language" />
 	</instructions>
+	
+	<instructions type="update" fromversion="2.1.2">
+		<instruction type="file" />
+		<instruction type="template" />
+		<instruction type="page" />
+		<instruction type="language" />
+		<instruction type="menuItem" />
+	</instructions>
 </package>
