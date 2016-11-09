@@ -35,10 +35,10 @@
 	</instructions>
 	
 	<instructions type="update" fromversion="2.1.2">
-		<instruction type="file" />
-		<instruction type="template" />
-		<instruction type="page" />
-		<instruction type="language" />
-		<instruction type="menuItem" />
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="page">page.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="menuItem">menuItem.xml</instruction>
 	</instructions>
 </package>
