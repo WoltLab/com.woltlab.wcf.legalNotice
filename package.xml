@@ -4,8 +4,8 @@
 		<packagename>WoltLab Suite Core: Legal Notice</packagename>
 		<packagedescription>Adds a new page to your website with information about the site owner. (This is required for German websites.)</packagedescription>
 		<packagedescription language="de">Kommerzielle deutsche Internetseiten müssen nach § 5 Telemediengesetz über ein Impressum verfügen.</packagedescription>
-		<version>3.0.0 RC 1</version>
-		<date>2016-12-15</date>
+		<version>3.0.0</version>
+		<date>2017-01-07</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -14,7 +14,7 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="3.0.0 RC 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="3.0.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
@@ -38,8 +38,10 @@
 		<instruction type="menuItem">menuItem.xml</instruction>
 	</instructions>
 	
-	<instructions type="update" fromversion="3.0.0 Beta 2">
-		<!-- dummy instruction -->
-		<instruction type="language" />
+	<instructions type="update" fromversion="3.0.0 RC 1">
+		<!-- deploy all files for consistency -->
+		<instruction type="acpTemplate" />
+		<instruction type="file" />
+		<instruction type="template" />
 	</instructions>
 </package>
