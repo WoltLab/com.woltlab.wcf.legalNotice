@@ -40,7 +40,6 @@
 	
 	<instructions type="update" fromversion="3.0.0 RC 1">
 		<!-- deploy all files for consistency -->
-		<instruction type="acpTemplate" />
 		<instruction type="file" run="standalone" />
 		<instruction type="template" />
 	</instructions>
