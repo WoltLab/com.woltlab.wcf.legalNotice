@@ -6,6 +6,7 @@
 			<controller>wcf\page\LegalNoticePage</controller>
 			<name language="de">Impressum</name>
 			<name language="en">Legal Notice</name>
+			<allowSpidersToIndex>1</allowSpidersToIndex>
 			
 			<content language="en">
 				<title>Legal Notice</title>
