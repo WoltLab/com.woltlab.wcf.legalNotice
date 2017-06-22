@@ -31,8 +31,7 @@ class LegalNoticePage extends AbstractPage {
 		parent::assignVariables();
 		
 		WCF::getTPL()->assign([
-			'encodedEmailAddress' => StringUtil::encodeAllChars(LEGAL_NOTICE_EMAIL_ADDRESS),
-			'allowSpidersToIndexThisPage' => true
+			'encodedEmailAddress' => StringUtil::encodeAllChars(LEGAL_NOTICE_EMAIL_ADDRESS)
 		]);
 	}
 }
