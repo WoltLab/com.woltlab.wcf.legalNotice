@@ -5,7 +5,7 @@
 		<packagedescription>Adds a new page to your website with information about the site owner. (This is required for German websites.)</packagedescription>
 		<packagedescription language="de">Kommerzielle deutsche Internetseiten müssen nach § 5 Telemediengesetz über ein Impressum verfügen.</packagedescription>
 		<version>3.1.0 Alpha 1</version>
-		<date>2017-02-21</date>
+		<date>2017-08-03</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -28,5 +28,11 @@
 		<instruction type="option" />
 		<instruction type="language" />
 		<instruction type="menuItem" />
+	</instructions>
+	
+	<instructions type="update" fromversion="3.0.0">
+		<instruction type="file" />
+		
+		<instruction type="page" />
 	</instructions>
 </package>
