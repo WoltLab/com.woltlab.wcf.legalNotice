@@ -28,20 +28,28 @@
 	<instructions type="install">
 		<instruction type="file" />
 		<instruction type="template" />
+		
+		<instruction type="language" />
+		
 		<instruction type="page" />
 		<instruction type="option" />
-		<instruction type="language" />
 		<instruction type="menuItem" />
 	</instructions>
 	
 	<instructions type="update" fromversion="3.0.*">
 		<instruction type="file" />
+		<instruction type="template" />
+		
+		<instruction type="language" />
 		
 		<instruction type="page" />
 	</instructions>
 	
 	<instructions type="update" fromversion="3.1.0 RC 1">
-		<instruction type="file">files_update.tar</instruction>
+		<instruction type="file" />
+		<instruction type="template" />
+		
+		<instruction type="language" />
 		
 		<instruction type="page" />
 	</instructions>
