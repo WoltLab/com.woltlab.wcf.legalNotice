@@ -22,7 +22,6 @@
 		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[Umsatzsteuer-ID]]></item>
 		<item name="wcf.acp.option.legal_notice_vat_id.description"><![CDATA[Falls {if LANGUAGE_USE_INFORMAL_VARIANT}du{else}Sie{/if} über eine Umsatzsteuer-Identifikationsnummer {if LANGUAGE_USE_INFORMAL_VARIANT}verfügst{else}verfügen{/if}, {if LANGUAGE_USE_INFORMAL_VARIANT}trage{else}tragen Sie{/if} diese bitte hier ein.]]></item>
 	</category>
-	
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Weitere Informationen]]></item>
 		<item name="wcf.legalNotice.address"><![CDATA[Name und Anschrift]]></item>
