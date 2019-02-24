@@ -28,6 +28,11 @@
 				<categoryname>legalNotice</categoryname>
 				<optiontype>text</optiontype>
 			</option>
+			<option name="legal_notice_responsible_for_content">
+				<categoryname>legalNotice</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+			</option>
 			<option name="legal_notice_register">
 				<categoryname>legalNotice</categoryname>
 				<optiontype>text</optiontype>

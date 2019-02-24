@@ -19,8 +19,10 @@
 		<item name="wcf.acp.option.legal_notice_register.description"/>
 		<item name="wcf.acp.option.legal_notice_representative"><![CDATA[Representatives]]></item>
 		<item name="wcf.acp.option.legal_notice_representative.description"/>
-		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[VAT ID]]></item>
+		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[VAT ID according to section 27a UStG]]></item>
 		<item name="wcf.acp.option.legal_notice_vat_id.description"/>
+		<item name="wcf.acp.option.legal_notice_responsible_for_content"><![CDATA[Responsible for Content]]></item>
+		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Responsible for content according to section 55 paragraph 2 RStV. Information only required for journalistic-editorial websites.]]></item>
 	</category>
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Additional Information]]></item>
@@ -32,6 +34,7 @@
 		<item name="wcf.legalNotice.phone"><![CDATA[Phone]]></item>
 		<item name="wcf.legalNotice.register"><![CDATA[Register]]></item>
 		<item name="wcf.legalNotice.representative"><![CDATA[Representatives]]></item>
-		<item name="wcf.legalNotice.vatID"><![CDATA[VAT ID]]></item>
+		<item name="wcf.legalNotice.vatID"><![CDATA[VAT ID according to section 27a UStG]]></item>
+		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Responsible for content according to section 55 paragraph 2 RStV]]></item>
 	</category>
 </language>

@@ -19,8 +19,10 @@
 		<item name="wcf.acp.option.legal_notice_register.description"><![CDATA[Falls der Inhaber in ein Handelsregister, Vereinsregister, Partnerschaftsregister oder Genossenschaftsregister eingetragen ist, {if LANGUAGE_USE_INFORMAL_VARIANT}musst du{else}müssen Sie{/if} hier das Register und die dazugehörige Nummer angeben.]]></item>
 		<item name="wcf.acp.option.legal_notice_representative"><![CDATA[Vertretungsberechtigte]]></item>
 		<item name="wcf.acp.option.legal_notice_representative.description"><![CDATA[Bei juristischen Personen ist es gesetzlich vorgeschrieben, dass alle vertretungsberechtigten Personen mit vollem Namen im Impressum genannt werden.]]></item>
-		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[Umsatzsteuer-ID]]></item>
+		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[Umsatzsteuer-ID nach § 27a <abbr title="Umsatzsteuergesetz">UStG</abbr>]]></item>
 		<item name="wcf.acp.option.legal_notice_vat_id.description"><![CDATA[Falls {if LANGUAGE_USE_INFORMAL_VARIANT}du{else}Sie{/if} über eine Umsatzsteuer-Identifikationsnummer {if LANGUAGE_USE_INFORMAL_VARIANT}verfügst{else}verfügen{/if}, {if LANGUAGE_USE_INFORMAL_VARIANT}trage{else}tragen Sie{/if} diese bitte hier ein.]]></item>
+		<item name="wcf.acp.option.legal_notice_responsible_for_content"><![CDATA[Inhaltlich Verantwortlicher]]></item>
+		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Verantwortlich für den Inhalt nach § 55 Abs. 2 <abbr title="Rundfunkstaatsvertrag">RStV</abbr>. Angabe nur bei journalistisch-redaktionell gestalteten Angeboten erforderlich.]]></item>
 	</category>
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Weitere Informationen]]></item>
@@ -32,6 +34,7 @@
 		<item name="wcf.legalNotice.phone"><![CDATA[Telefon]]></item>
 		<item name="wcf.legalNotice.register"><![CDATA[Register]]></item>
 		<item name="wcf.legalNotice.representative"><![CDATA[Vertretungsberechtigte]]></item>
-		<item name="wcf.legalNotice.vatID"><![CDATA[Umsatzsteuer-ID]]></item>
+		<item name="wcf.legalNotice.vatID"><![CDATA[Umsatzsteuer-Identifikationsnummer nach § 27a <abbr title="Umsatzsteuergesetz">UStG</abbr>]]></item>
+		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Verantwortlich für den Inhalt nach § 55 Abs. 2 <abbr title="Rundfunkstaatsvertrag">RStV</abbr>]]></item>
 	</category>
 </language>

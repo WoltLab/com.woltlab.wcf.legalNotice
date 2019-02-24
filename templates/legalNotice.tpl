@@ -31,6 +31,11 @@
 			<dd>{LEGAL_NOTICE_REPRESENTATIVE}</dd>
 		{/if}
 		
+		{if LEGAL_NOTICE_RESPONSIBLE_FOR_CONTENT}
+			<dt>{lang}wcf.legalNotice.responsibleForContent{/lang}</dt>
+			<dd>{@LEGAL_NOTICE_RESPONSIBLE_FOR_CONTENT|language|newlineToBreak}</dd>
+		{/if}
+		
 		{if LEGAL_NOTICE_REGISTER}
 			<dt>{lang}wcf.legalNotice.register{/lang}</dt>
 			<dd>{LEGAL_NOTICE_REGISTER}</dd>
