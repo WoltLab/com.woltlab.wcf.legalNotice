@@ -8,37 +8,37 @@
 	<dl>
 		{if LEGAL_NOTICE_ADDRESS}
 			<dt>{lang}wcf.legalNotice.address{/lang}</dt>
-			<dd>{@LEGAL_NOTICE_ADDRESS|language|newlineToBreak}{event name='address_event'}</dd>
+			<dd>{@LEGAL_NOTICE_ADDRESS|language|newlineToBreak}{event name='address'}</dd>
 		{/if}
 		
 		{if $encodedEmailAddress}
 			<dt>{lang}wcf.legalNotice.emailAddress{/lang}</dt>
-			<dd><a href="mailto:{@$encodedEmailAddress}">{@$encodedEmailAddress}</a>{event name='email_event'}</dd>
+			<dd><a href="mailto:{@$encodedEmailAddress}">{@$encodedEmailAddress}</a>{event name='emailAddress'}</dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_PHONE}
 			<dt>{lang}wcf.legalNotice.phone{/lang}</dt>
-			<dd>{LEGAL_NOTICE_PHONE}{event name='phone_event'}</dd>
+			<dd>{LEGAL_NOTICE_PHONE}{event name='phone'}</dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_FAX}
 			<dt>{lang}wcf.legalNotice.fax{/lang}</dt>
-			<dd>{LEGAL_NOTICE_FAX}{event name='fax_event'}</dd>
+			<dd>{LEGAL_NOTICE_FAX}{event name='fax'}</dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_REPRESENTATIVE}
 			<dt>{lang}wcf.legalNotice.representative{/lang}</dt>
-			<dd>{LEGAL_NOTICE_REPRESENTATIVE}{event name='representative_event'}</dd>
+			<dd>{LEGAL_NOTICE_REPRESENTATIVE}{event name='representative'}</dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_REGISTER}
 			<dt>{lang}wcf.legalNotice.register{/lang}</dt>
-			<dd>{LEGAL_NOTICE_REGISTER}{event name='register_event'}</dd>
+			<dd>{LEGAL_NOTICE_REGISTER}{event name='register'}</dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_VAT_ID}
 			<dt>{lang}wcf.legalNotice.vatID{/lang}</dt>
-			<dd>{LEGAL_NOTICE_VAT_ID}{event name='vat_event'}</dd>
+			<dd>{LEGAL_NOTICE_VAT_ID}{event name='vatID'}</dd>
 		{/if}
 	</dl>
 	
