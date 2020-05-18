@@ -13,7 +13,7 @@
 		
 		{if $encodedEmailAddress}
 			<dt>{lang}wcf.legalNotice.emailAddress{/lang}</dt>
-			<dd><a href="mailto:{@$encodedEmailAddress}">{@$encodedEmailAddress}</a></dd>
+			<dd><a href="mailto:{@$encodedUriEmailAddress}">{@$encodedEmailAddress}</a></dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_PHONE}
