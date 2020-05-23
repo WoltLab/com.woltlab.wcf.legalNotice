@@ -13,17 +13,17 @@
 		
 		{if $encodedEmailAddress}
 			<dt>{lang}wcf.legalNotice.emailAddress{/lang}</dt>
-			<dd><a href="mailto:{@$encodedEmailAddress}">{@$encodedEmailAddress}</a></dd>
+			<dd><a href="mailto:{@$encodedUriEmailAddress}">{@$encodedEmailAddress}</a></dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_PHONE}
 			<dt>{lang}wcf.legalNotice.phone{/lang}</dt>
-			<dd>{LEGAL_NOTICE_PHONE}</dd>
+			<dd><a href="tel:{LEGAL_NOTICE_PHONE|rawurlencode}">{LEGAL_NOTICE_PHONE}</a></dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_FAX}
 			<dt>{lang}wcf.legalNotice.fax{/lang}</dt>
-			<dd>{LEGAL_NOTICE_FAX}</dd>
+			<dd><a href="tel:{LEGAL_NOTICE_FAX|rawurlencode}">{LEGAL_NOTICE_FAX}</a></dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_REPRESENTATIVE}
