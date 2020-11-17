@@ -2,7 +2,6 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.legalNotice"><![CDATA[Impressum]]></item>
-		<item name="wcf.acp.option.category.legalNotice.description"><![CDATA[Angaben gemäß § 5 Telemediengesetz]]></item>
 		<item name="wcf.acp.option.legal_notice_additional_text"><![CDATA[Weitere Informationen]]></item>
 		<item name="wcf.acp.option.legal_notice_additional_text.description"><![CDATA[Optional {if LANGUAGE_USE_INFORMAL_VARIANT}kannst du{else}können Sie{/if} hier weitere Informationen {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} Impressum hinzufügen.]]></item>
 		<item name="wcf.acp.option.legal_notice_additional_text_enable_html"><![CDATA[HTML-Code im Text verwenden]]></item>
@@ -19,22 +18,21 @@
 		<item name="wcf.acp.option.legal_notice_register.description"><![CDATA[Falls der Inhaber in ein Handelsregister, Vereinsregister, Partnerschaftsregister oder Genossenschaftsregister eingetragen ist, {if LANGUAGE_USE_INFORMAL_VARIANT}musst du{else}müssen Sie{/if} hier das Register und die dazugehörige Nummer angeben.]]></item>
 		<item name="wcf.acp.option.legal_notice_representative"><![CDATA[Vertretungsberechtigte]]></item>
 		<item name="wcf.acp.option.legal_notice_representative.description"><![CDATA[Bei juristischen Personen ist es gesetzlich vorgeschrieben, dass alle vertretungsberechtigten Personen mit vollem Namen im Impressum genannt werden.]]></item>
-		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[Umsatzsteuer-ID nach § 27a <abbr title="Umsatzsteuergesetz">UStG</abbr>]]></item>
+		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[Umsatzsteuer-Identifikationsnummer]]></item>
 		<item name="wcf.acp.option.legal_notice_vat_id.description"><![CDATA[Falls {if LANGUAGE_USE_INFORMAL_VARIANT}du{else}Sie{/if} über eine Umsatzsteuer-Identifikationsnummer {if LANGUAGE_USE_INFORMAL_VARIANT}verfügst{else}verfügen{/if}, {if LANGUAGE_USE_INFORMAL_VARIANT}trage{else}tragen Sie{/if} diese bitte hier ein.]]></item>
 		<item name="wcf.acp.option.legal_notice_responsible_for_content"><![CDATA[Inhaltlich Verantwortlicher]]></item>
-		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Verantwortlich für den Inhalt nach § 55 Abs. 2 <abbr title="Rundfunkstaatsvertrag">RStV</abbr>. Angabe nur bei journalistisch-redaktionell gestalteten Angeboten erforderlich.]]></item>
+		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Verantwortlich für den Inhalt. Angabe nur bei journalistisch-redaktionell gestalteten Angeboten erforderlich.]]></item>
 	</category>
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Weitere Informationen]]></item>
 		<item name="wcf.legalNotice.address"><![CDATA[Name und Anschrift]]></item>
-		<item name="wcf.legalNotice.description"><![CDATA[Angaben gemäß § 5 Telemediengesetz]]></item>
 		<item name="wcf.legalNotice.emailAddress"><![CDATA[E-Mail-Adresse]]></item>
 		<item name="wcf.legalNotice.fax"><![CDATA[Fax]]></item>
 		<item name="wcf.legalNotice.general"><![CDATA[Allgemeine Informationen]]></item>
 		<item name="wcf.legalNotice.phone"><![CDATA[Telefon]]></item>
 		<item name="wcf.legalNotice.register"><![CDATA[Register]]></item>
 		<item name="wcf.legalNotice.representative"><![CDATA[Vertretungsberechtigte]]></item>
-		<item name="wcf.legalNotice.vatID"><![CDATA[Umsatzsteuer-Identifikationsnummer nach § 27a <abbr title="Umsatzsteuergesetz">UStG</abbr>]]></item>
-		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Verantwortlich für den Inhalt nach § 55 Abs. 2 <abbr title="Rundfunkstaatsvertrag">RStV</abbr>]]></item>
+		<item name="wcf.legalNotice.vatID"><![CDATA[Umsatzsteuer-Identifikationsnummer]]></item>
+		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Inhaltlich Verantwortlicher]]></item>
 	</category>
 </language>
