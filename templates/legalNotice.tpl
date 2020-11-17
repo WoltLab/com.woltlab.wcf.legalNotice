@@ -1,5 +1,3 @@
-{capture assign='contentDescription'}{lang}wcf.legalNotice.description{/lang}{/capture}
-
 {include file='header'}
 
 <section class="section">
