@@ -2,7 +2,6 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en">
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.legalNotice"><![CDATA[Legal Notice]]></item>
-		<item name="wcf.acp.option.category.legalNotice.description"/>
 		<item name="wcf.acp.option.legal_notice_additional_text"><![CDATA[Additional Information]]></item>
 		<item name="wcf.acp.option.legal_notice_additional_text.description"><![CDATA[You can enter additional information for your legal notice page here.]]></item>
 		<item name="wcf.acp.option.legal_notice_additional_text_enable_html"><![CDATA[Enable HTML code in additional information message]]></item>
@@ -19,22 +18,21 @@
 		<item name="wcf.acp.option.legal_notice_register.description"/>
 		<item name="wcf.acp.option.legal_notice_representative"><![CDATA[Representatives]]></item>
 		<item name="wcf.acp.option.legal_notice_representative.description"/>
-		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[VAT ID according to section 27a UStG]]></item>
+		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[VAT ID]]></item>
 		<item name="wcf.acp.option.legal_notice_vat_id.description"/>
 		<item name="wcf.acp.option.legal_notice_responsible_for_content"><![CDATA[Responsible for Content]]></item>
-		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Responsible for content according to section 55 paragraph 2 RStV. Information only required for journalistic-editorial websites.]]></item>
+		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Responsible for content. Information only required for journalistic-editorial websites.]]></item>
 	</category>
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Additional Information]]></item>
 		<item name="wcf.legalNotice.address"><![CDATA[Name and Address]]></item>
-		<item name="wcf.legalNotice.description"/>
 		<item name="wcf.legalNotice.emailAddress"><![CDATA[Email Address]]></item>
 		<item name="wcf.legalNotice.fax"><![CDATA[Fax]]></item>
 		<item name="wcf.legalNotice.general"><![CDATA[General Information]]></item>
 		<item name="wcf.legalNotice.phone"><![CDATA[Phone]]></item>
 		<item name="wcf.legalNotice.register"><![CDATA[Register]]></item>
 		<item name="wcf.legalNotice.representative"><![CDATA[Representatives]]></item>
-		<item name="wcf.legalNotice.vatID"><![CDATA[VAT ID according to section 27a UStG]]></item>
-		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Responsible for content according to section 55 paragraph 2 RStV]]></item>
+		<item name="wcf.legalNotice.vatID"><![CDATA[VAT ID]]></item>
+		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Responsible for Content]]></item>
 	</category>
 </language>
