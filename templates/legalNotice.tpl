@@ -1,4 +1,4 @@
-{include file='header'}
+{include file='header' __disableAds=true}
 
 <section class="section">
 	<h2 class="sectionTitle">{lang}wcf.legalNotice.general{/lang}</h2>
@@ -62,4 +62,4 @@
 
 {event name='sections'}
 
-{include file='footer'}
+{include file='footer' __disableAds=true}
