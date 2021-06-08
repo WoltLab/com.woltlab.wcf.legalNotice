@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+<import>
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.legalNotice"><![CDATA[Impressum]]></item>
 		<item name="wcf.acp.option.legal_notice_additional_text"><![CDATA[Weitere Informationen]]></item>
@@ -35,4 +36,5 @@
 		<item name="wcf.legalNotice.vatID"><![CDATA[Umsatzsteuer-Identifikationsnummer]]></item>
 		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Inhaltlich Verantwortlicher]]></item>
 	</category>
+</import>
 </language>
