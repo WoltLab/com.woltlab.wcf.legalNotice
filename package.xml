@@ -32,4 +32,8 @@
 		<instruction type="option" />
 		<instruction type="menuItem" />
 	</instructions>
+
+	<instructions type="update" fromversion="5.3.*">
+		<instruction type="file" />
+	</instructions>
 </package>
