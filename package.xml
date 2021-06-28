@@ -35,6 +35,7 @@
 
 	<instructions type="update" fromversion="5.3.*">
 		<instruction type="file" />
+		<instruction type="template" />
 		
 		<!-- Just XSD adjustments. -->
 		<instruction type="language" />
