@@ -35,5 +35,12 @@
 
 	<instructions type="update" fromversion="5.3.*">
 		<instruction type="file" />
+		
+		<!-- Just XSD adjustments. -->
+		<instruction type="language" />
+		
+		<instruction type="page" />
+		<instruction type="option" />
+		<instruction type="menuItem" />
 	</instructions>
 </package>
