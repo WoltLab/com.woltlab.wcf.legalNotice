@@ -33,18 +33,6 @@
 		<instruction type="menuItem" />
 	</instructions>
 
-	<instructions type="update" fromversion="5.3.*">
-		<instruction type="file" />
-		<instruction type="template" />
-		
-		<!-- Just XSD adjustments. -->
-		<instruction type="language" />
-		
-		<instruction type="page" />
-		<instruction type="option" />
-		<instruction type="menuItem" />
-	</instructions>
-
 	<instructions type="update" fromversion="5.4.0 RC 1">
 		<void/>
 	</instructions>
