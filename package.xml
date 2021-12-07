@@ -5,7 +5,7 @@
 		<packagename language="de">WoltLab Suite Core: Impressum</packagename>
 		<packagedescription>Adds a new page to your website with information about the site owner. (This is required for German websites.)</packagedescription>
 		<packagedescription language="de">Kommerzielle deutsche Internetseiten müssen nach § 5 Telemediengesetz über ein Impressum verfügen.</packagedescription>
-		<version>5.4.9</version>
+		<version>5.5.0 Alpha 1</version>
 		<date>2021-11-30</date>
 	</packageinformation>
 	
@@ -15,11 +15,11 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="5.4.9">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="5.5.0 Alpha 1">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
-		<excludedpackage version="5.5.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="5.6.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 	
 	<instructions type="install">
@@ -33,11 +33,8 @@
 		<instruction type="menuItem" />
 	</instructions>
 
-	<instructions type="update" fromversion="5.4.0">
-		<instruction type="option"/>
-	</instructions>
-
-	<instructions type="update" fromversion="5.4.9 dev 1">
-		<void/>
+	<instructions type="update" fromversion="5.4.*">
+		<!-- Just the new <import> tag. -->
+		<instruction type="language" />
 	</instructions>
 </package>
