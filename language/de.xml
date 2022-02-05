@@ -21,8 +21,8 @@
 		<item name="wcf.acp.option.legal_notice_representative.description"><![CDATA[Bei juristischen Personen ist es gesetzlich vorgeschrieben, dass alle vertretungsberechtigten Personen mit vollem Namen im Impressum genannt werden.]]></item>
 		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[Umsatzsteuer-Identifikationsnummer]]></item>
 		<item name="wcf.acp.option.legal_notice_vat_id.description"><![CDATA[Falls {if LANGUAGE_USE_INFORMAL_VARIANT}du{else}Sie{/if} über eine Umsatzsteuer-Identifikationsnummer {if LANGUAGE_USE_INFORMAL_VARIANT}verfügst{else}verfügen{/if}, {if LANGUAGE_USE_INFORMAL_VARIANT}trage{else}tragen Sie{/if} diese bitte hier ein.]]></item>
-		<item name="wcf.acp.option.legal_notice_responsible_for_content"><![CDATA[Inhaltlich Verantwortlicher]]></item>
-		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Verantwortlich für den Inhalt. Angabe nur bei journalistisch-redaktionell gestalteten Angeboten erforderlich.]]></item>
+		<item name="wcf.acp.option.legal_notice_responsible_for_content"><![CDATA[Inhaltlich verantwortlich]]></item>
+		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Für den Inhalt verantwortliche natürliche Person(en). Angabe nur bei journalistisch-redaktionell gestalteten Angeboten erforderlich.]]></item>
 	</category>
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Weitere Informationen]]></item>
@@ -34,7 +34,7 @@
 		<item name="wcf.legalNotice.register"><![CDATA[Register]]></item>
 		<item name="wcf.legalNotice.representative"><![CDATA[Vertretungsberechtigte]]></item>
 		<item name="wcf.legalNotice.vatID"><![CDATA[Umsatzsteuer-Identifikationsnummer]]></item>
-		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Inhaltlich Verantwortlicher]]></item>
+		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Inhaltlich verantwortlich]]></item>
 	</category>
 </import>
 </language>
