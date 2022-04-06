@@ -34,7 +34,8 @@
 	</instructions>
 
 	<instructions type="update" fromversion="5.4.*">
-		<!-- Just the new <import> tag. -->
+		<instruction type="template" />
+
 		<instruction type="language" />
 	</instructions>
 </package>
