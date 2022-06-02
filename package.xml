@@ -32,4 +32,10 @@
 		<instruction type="option" />
 		<instruction type="menuItem" />
 	</instructions>
+
+	<instructions type="update" fromversion="5.4.*">
+		<instruction type="template" />
+
+		<instruction type="language" />
+	</instructions>
 </package>
