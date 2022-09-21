@@ -16,7 +16,7 @@ use wcf\util\StringUtil;
  */
 class LegalNoticePage extends AbstractPage
 {
-    const AVAILABLE_DURING_OFFLINE_MODE = true;
+    public const AVAILABLE_DURING_OFFLINE_MODE = true;
 
     /**
      * @inheritDoc
