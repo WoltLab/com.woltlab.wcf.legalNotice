@@ -25,7 +25,7 @@ final class LegalNoticePage extends AbstractPage
     {
         parent::readParameters();
 
-        $this->canonicalURL = LinkHandler::getInstance()->getLink('LegalNotice');
+        $this->canonicalURL = LinkHandler::getInstance()->getControllerLink(static::class);
     }
 
     /**
