@@ -10,11 +10,11 @@ use wcf\util\StringUtil;
  * Shows the legal notice page.
  *
  * @author  Marcel Werk
- * @copyright   2001-2019 WoltLab GmbH
+ * @copyright   2001-2022 WoltLab GmbH
  * @license GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
  * @package WoltLabSuite\Core\Page
  */
-class LegalNoticePage extends AbstractPage
+final class LegalNoticePage extends AbstractPage
 {
     public const AVAILABLE_DURING_OFFLINE_MODE = true;
 
@@ -25,7 +25,7 @@ class LegalNoticePage extends AbstractPage
     {
         parent::readParameters();
 
-        $this->canonicalURL = LinkHandler::getInstance()->getLink('LegalNotice');
+        $this->canonicalURL = LinkHandler::getInstance()->getControllerLink(static::class);
     }
 
     /**
