@@ -37,4 +37,11 @@
 		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Responsible for Content]]></item>
 	</category>
 </import>
+<delete>
+	<item name="wcf.acp.option.category.legalNotice.description"/>
+	<item name="wcf.footer.menu.legalNotice"/>
+	<item name="wcf.legalNotice.description"/>
+	<item name="wcf.legalNotice.title"/>
+	<item name="wcf.page.com.woltlab.wcf.legalNotice.LegalNoticePage"/>
+</delete>
 </language>
