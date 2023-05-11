@@ -22,7 +22,7 @@
 		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[VAT ID]]></item>
 		<item name="wcf.acp.option.legal_notice_vat_id.description"/>
 		<item name="wcf.acp.option.legal_notice_responsible_for_content"><![CDATA[Responsible for Content]]></item>
-		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Responsible for content. Information only required for journalistic-editorial websites.]]></item>
+		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Depending on the jurisdiction this information is only required for journalistic and editorial content.]]></item>
 	</category>
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Additional Information]]></item>
