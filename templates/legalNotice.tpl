@@ -6,12 +6,12 @@
 	<dl>
 		{if LEGAL_NOTICE_ADDRESS}
 			<dt>{lang}wcf.legalNotice.address{/lang}</dt>
-			<dd>{@LEGAL_NOTICE_ADDRESS|phrase|newlineToBreak}</dd>
+			<dd>{unsafe:LEGAL_NOTICE_ADDRESS|phrase|newlineToBreak}</dd>
 		{/if}
 		
 		{if $encodedEmailAddress}
 			<dt>{lang}wcf.legalNotice.emailAddress{/lang}</dt>
-			<dd><a href="mailto:{@$encodedUriEmailAddress}">{@$encodedEmailAddress}</a></dd>
+			<dd><a href="mailto:{unsafe:$encodedUriEmailAddress}">{unsafe:$encodedEmailAddress}</a></dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_PHONE}
@@ -31,7 +31,7 @@
 		
 		{if LEGAL_NOTICE_RESPONSIBLE_FOR_CONTENT}
 			<dt>{lang}wcf.legalNotice.responsibleForContent{/lang}</dt>
-			<dd>{@LEGAL_NOTICE_RESPONSIBLE_FOR_CONTENT|phrase|newlineToBreak}</dd>
+			<dd>{unsafe:LEGAL_NOTICE_RESPONSIBLE_FOR_CONTENT|phrase|newlineToBreak}</dd>
 		{/if}
 		
 		{if LEGAL_NOTICE_REGISTER}
@@ -53,7 +53,7 @@
 		<h2 class="sectionTitle">{lang}wcf.legalNotice.additionalText{/lang}</h2>
 		
 		<div class="htmlContent">
-			{if LEGAL_NOTICE_ADDITIONAL_TEXT_ENABLE_HTML}{@LEGAL_NOTICE_ADDITIONAL_TEXT|phrase}{else}{@LEGAL_NOTICE_ADDITIONAL_TEXT|phrase|newlineToBreak}{/if}
+			{if LEGAL_NOTICE_ADDITIONAL_TEXT_ENABLE_HTML}{unsafe:LEGAL_NOTICE_ADDITIONAL_TEXT|phrase}{else}{unsafe:LEGAL_NOTICE_ADDITIONAL_TEXT|phrase|newlineToBreak}{/if}
 		</div>
 		
 		{event name='additionalTextFields'}
