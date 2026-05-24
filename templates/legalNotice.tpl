@@ -43,6 +43,11 @@
 			<dt>{lang}wcf.legalNotice.vatID{/lang}</dt>
 			<dd>{LEGAL_NOTICE_VAT_ID}</dd>
 		{/if}
+
+		{if LEGAL_NOTICE_BUSINESS_ID}
+			<dt>{lang}wcf.legalNotice.businessID{/lang}</dt>
+			<dd>{LEGAL_NOTICE_BUSINESS_ID}</dd>
+		{/if}
 	</dl>
 	
 	{event name='generalFields'}

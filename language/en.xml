@@ -23,6 +23,8 @@
 		<item name="wcf.acp.option.legal_notice_vat_id.description"/>
 		<item name="wcf.acp.option.legal_notice_responsible_for_content"><![CDATA[Responsible for Content]]></item>
 		<item name="wcf.acp.option.legal_notice_responsible_for_content.description"><![CDATA[Depending on the jurisdiction this information is only required for journalistic and editorial content.]]></item>
+		<item name="wcf.acp.option.legal_notice_business_id"><![CDATA[Business Identification Number]]></item>
+		<item name="wcf.acp.option.legal_notice_business_id.description"/>
 	</category>
 	<category name="wcf.legalNotice">
 		<item name="wcf.legalNotice.additionalText"><![CDATA[Additional Information]]></item>
@@ -35,6 +37,7 @@
 		<item name="wcf.legalNotice.representative"><![CDATA[Representatives]]></item>
 		<item name="wcf.legalNotice.vatID"><![CDATA[VAT ID]]></item>
 		<item name="wcf.legalNotice.responsibleForContent"><![CDATA[Responsible for Content]]></item>
+		<item name="wcf.legalNotice.businessID"><![CDATA[Business Identification Number]]></item>
 	</category>
 </import>
 </language>
