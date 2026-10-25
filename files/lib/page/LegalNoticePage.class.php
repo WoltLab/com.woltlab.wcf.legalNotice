@@ -32,7 +32,7 @@ final class LegalNoticePage extends AbstractPage
         parent::assignVariables();
 
         try {
-            $uri = (new Mailbox(\LEGAL_NOTICE_EMAIL_ADDRESS))
+            $uri = new Mailbox(\LEGAL_NOTICE_EMAIL_ADDRESS)
                 ->getAddressForMailto();
         } catch (\DomainException) {
             $uri = \LEGAL_NOTICE_EMAIL_ADDRESS;
